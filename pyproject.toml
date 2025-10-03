@@ -1,20 +1,20 @@
 [project]
 name = "tests"
 version = "0.1.0"
-description = "\"\""
+description = "Тестовый проект для QA GURU"
 authors = [
-    {name = "Alexandra Levina",email = "Drumlex17@users.noreply.github.com"}
+    { name = "Alexandra Levina", email = "Drumlex17@users.noreply.github.com" }
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12,<4.0"
 dependencies = [
-    "pytest (==8.4.2)",
-    "selene (==2.0.0rc9)"
+    "pytest==8.4.2",
+    "selene==2.0.0rc9"
 ]
 
 [dependency-groups]
 dev = [
-    "pylint (==3.3.8)"
+    "pylint==3.3.8"
 ]
 
 
